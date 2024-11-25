@@ -1,3 +1,72 @@
+
+## To Use CRA Depreciated
+change package.json start script to:
+
+```bash
+ "start": "react-scripts --openssl-legacy-provider start",
+ ```
+
+ ## Delete Package lock.json
+```bash
+npm i
+```
+
+⤵️⤵️⤵️⤵️:
+
+```bash
+npm audit fix --force
+```
+
+🔥🔥🔥🔥:
+
+```bash
+npm run start
+```
+
+🏆🏆🏆🏆🏆🏆🏆🏆
+
+---
+
+### Remove Router Warnings
+Add to Router Script:
+
+```javascript
+      <Router future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true,
+        }}>
+```
+
+### Remove Google Tags
+
+Open Public folder. In `index.html` remove the script for google tracking:
+
+```html
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45799926-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+    </script>
+```
+
+⤵️⤵️⤵️⤵️:
+
+Open `MainLandingPage.js` and Block out this code:
+
+```jsx
+      useEffect(() => {
+            window.gtag("js", new Date());
+            window.gtag("config", "UA-45799926-9");
+        }, [])
+```
+
+🔥🔥🔥🔥
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Script
@@ -67,67 +136,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
-# To Use CRA Depreciated
-change package.json start script to:
-
-```bash
- "start": "react-scripts --openssl-legacy-provider start",
- ```
-
- ## Delete Package lock.json
-```bash
-npm i
-```
-
-⤵️⤵️⤵️⤵️:
-
-```bash
-npm audit fix --force
-```
-
-🔥🔥🔥🔥:
-
-```bash
-npm run start
-```
-
-🏆🏆🏆🏆🏆🏆🏆🏆
-
-## Remove Router Warnings
-Add to Router Script:
-
-```javascript
-      <Router future={{
-          v7_startTransition: true,
-          v7_relativeSplatPath: true,
-        }}>
-```
-
-## Remove Google Tags
-
-Open Public folder. In `index.html` remove the script for google tracking:
-
-```html
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45799926-9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-    </script>
-```
-
-⤵️⤵️⤵️⤵️:
-
-Open `MainLandingPage.js` and Block out this code:
-
-```jsx
-      useEffect(() => {
-            window.gtag("js", new Date());
-            window.gtag("config", "UA-45799926-9");
-        }, [])
-```
-
-🔥🔥🔥🔥
