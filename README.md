@@ -107,7 +107,8 @@ Add to Router Script:
 ## Remove Google Tags
 
 Open Public folder. In `index.html` remove the script for google tracking:
-    ```html
+
+```html
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45799926-9"></script>
     <script>
@@ -116,16 +117,17 @@ Open Public folder. In `index.html` remove the script for google tracking:
         dataLayer.push(arguments);
       }
     </script>
-    ```
+```
+
 ⤵️⤵️⤵️⤵️:
 
 Open `MainLandingPage.js` and Block out this code:
 
-    ```jsx
+```jsx
       useEffect(() => {
             window.gtag("js", new Date());
             window.gtag("config", "UA-45799926-9");
         }, [])
-  ```
-  
+```
+
 🔥🔥🔥🔥
