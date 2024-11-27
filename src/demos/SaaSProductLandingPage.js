@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import Hero from "components/hero/TwoColumnWithInput.js";
+import Hero from "components/hero/TwoColumnHomeIntro";
 import Features from "components/features/ThreeColWithSideImage.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
@@ -17,6 +17,7 @@ import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
+import TwoColStats from "components/features/TwoColStats";
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
@@ -25,6 +26,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
+      <TwoColStats />
       <Features
         subheading={<Subheading>Features</Subheading>}
         heading={

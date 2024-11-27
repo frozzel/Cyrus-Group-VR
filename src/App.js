@@ -85,7 +85,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import EventLandingPage from "demos/EventLandingPage.js";
 // import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
 // import AgencyLandingPage from "demos/AgencyLandingPage.js";
-// import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
+import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 // import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
 // import ServiceLandingPage from "demos/ServiceLandingPage.js";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
@@ -101,7 +101,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
-import MainLandingPage from "MainLandingPage.js";
+// import MainLandingPage from "MainLandingPage.js";
 import ThankYouPage from "ThankYouPage.js";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -122,8 +122,8 @@ export default function App() {
           <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
-          <Route path="/" element={<MainLandingPage />} />
-          <Route path="*" element={<MainLandingPage />} />
+          <Route path="/" element={<SaaSProductLandingPage />} />
+          <Route path="*" element={<SaaSProductLandingPage />} />
         </Routes>
       </Router>
     </>
