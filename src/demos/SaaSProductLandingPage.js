@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnHomeIntro";
-import Features from "components/features/ThreeColWithSideImage.js";
+import Features from "components/features/FeaturesHome";
 import MainFeature from "components/features/TwoColWithButton.js";
 import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
@@ -20,8 +20,8 @@ import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sig
 import TwoColStats from "components/features/TwoColStats";
 
 export default () => {
-  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
-  const HighlightedText = tw.span`text-primary-500`;
+  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-300`;
+  const HighlightedText = tw.span`text-primary-300`;
 
   return (
     <AnimationRevealPage>
@@ -31,7 +31,8 @@ export default () => {
         subheading={<Subheading>Features</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            Integrations That Get You
+            <HighlightedText> Results.</HighlightedText>
           </>
         }
       />
