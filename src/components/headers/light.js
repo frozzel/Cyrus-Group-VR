@@ -12,7 +12,7 @@ import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
 const Header = tw.header`
   flex justify-between items-center
-  max-w-screen-xl mx-auto
+  max-w-screen-xl mx-auto sticky top-0 fixed z-10
 `;
 
 export const NavLinks = tw.div`inline-block`;
