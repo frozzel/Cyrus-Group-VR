@@ -97,8 +97,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
     <NavLinks key={1}>
       <NavLink href="#about" onClick={handleNavLinkClick}>About</NavLink>
       <NavLink href="#feature" onClick={handleNavLinkClick}>Integrations</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
+      <NavLink href="#ai">Artificial Intelligence</NavLink>
+      <NavLink href="#vr">Virtual Reality</NavLink>
       {/* <NavLink href="/#" tw="lg:ml-12!">
         Login
       </NavLink> */}

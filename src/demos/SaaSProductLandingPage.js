@@ -18,6 +18,7 @@ import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
 import TwoColStats from "components/features/TwoColStats";
+import AiFeatures from "components/features/AiFeatures";
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-300`;
@@ -36,6 +37,14 @@ export default () => {
           </>
         }
       />
+      <AiFeatures
+      subheading={<Subheading></Subheading>}
+      heading={
+        <>
+          Artificial Intelligence Solutions
+          <HighlightedText> </HighlightedText>
+        </>
+      }/>
       <MainFeature
         subheading={<Subheading>Quality Work</Subheading>}
         imageSrc={heroScreenshotImageSrc}
