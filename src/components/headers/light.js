@@ -10,9 +10,17 @@ import logo from "../../images/cyrusLogo.webp";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
+// const Header = tw.header`
+//   fixed top-0 left-1/2 transform -translate-x-1/2 z-50 shadow
+//   flex justify-between items-center w-full max-w-screen-xl bg-white p-4 px-4
+// `;
+
 const Header = tw.header`
-  flex justify-between items-center
-  max-w-screen-xl mx-auto sticky top-0 fixed z-10
+  fixed top-0 left-0 w-full z-50 bg-white shadow-md
+`;
+
+const InnerHeader = tw.div`
+  flex justify-between items-center max-w-screen-xl mx-auto p-4 px-4
 `;
 
 export const NavLinks = tw.div`inline-block`;
@@ -21,13 +29,13 @@ export const NavLinks = tw.div`inline-block`;
  * hocus:bg-primary-700 will apply the bg-primary-700 class on hover or focus
  */
 export const NavLink = tw.a`
-  text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
+   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
   font-semibold tracking-wide transition duration-300
   pb-1 border-b-2 border-transparent hover:border-primary-500 hocus:text-primary-500
 `;
 
 export const PrimaryLink = tw(NavLink)`
-  lg:mx-0
+  lg:mx-0 
   px-8 py-3 rounded bg-primary-300 text-gray-100
   hocus:bg-pink-500 hocus:text-gray-200 focus:shadow-outline
   border-b-0
@@ -56,6 +64,7 @@ export const DesktopNavLinks = tw.nav`
   hidden lg:flex flex-1 justify-between items-center
 `;
 
+
 export default ({ roundedHeaderButton = false, logoLink, links, className, collapseBreakpointClass = "lg" }) => {
   /*
    * This header component accepts an optionals "links" prop that specifies the links to render in the navbar.
@@ -70,10 +79,24 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    * changing the defaultLinks variable below below.
    * If you manipulate links here, all the styling on the links is already done for you. If you pass links yourself though, you are responsible for styling the links or use the helper styled components that are defined here (NavLink)
    */
+  const { showNavLinks, animation, toggleNavbar } = useAnimatedNavToggler();
+  const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
+
+  const handleNavLinkClick = (event) => {
+    // Prevent default scrolling behavior
+    event.preventDefault();
+    // Get the target element's ID from the href attribute
+    const targetId = event.currentTarget.getAttribute("href").substring(1);
+    // Scroll to the target element
+    document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth" });
+    // Close the navbar
+    toggleNavbar();
+  };
+
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
+      <NavLink href="#about" onClick={handleNavLinkClick}>About</NavLink>
+      <NavLink href="#feature" onClick={handleNavLinkClick}>Integrations</NavLink>
       <NavLink href="/#">Pricing</NavLink>
       <NavLink href="/#">Contact Us</NavLink>
       {/* <NavLink href="/#" tw="lg:ml-12!">
@@ -83,8 +106,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
     </NavLinks>
   ];
 
-  const { showNavLinks, animation, toggleNavbar } = useAnimatedNavToggler();
-  const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
+
 
   const defaultLogoLink = (
     <LogoLink href="/">
@@ -98,6 +120,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   return (
     <Header className={className || "header-light"}>
+      <InnerHeader>
       <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
         {logoLink}
         {links}
@@ -112,6 +135,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
           {showNavLinks ? <CloseIcon tw="w-6 h-6" /> : <MenuIcon tw="w-6 h-6" />}
         </NavToggle>
       </MobileNavLinksContainer>
+      </InnerHeader>
     </Header>
   );
 };

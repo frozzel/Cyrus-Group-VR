@@ -38,7 +38,7 @@ export default ({textOnLeft = false}) => {
 
   return (
     <Container>
-      <TwoColumn>
+      <TwoColumn id="about">
         <ImageColumn>
           <Image imageSrc={Women} />
         </ImageColumn>
