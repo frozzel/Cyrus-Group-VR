@@ -8,8 +8,11 @@ Welcome to Cyrus Group, where creativity and innovation come together. Experienc
 
 ---
 
-![Screen Shots](https://github.com/frozzel/cgi-pro-painters/blob/16c71319c5d5fb890c1149a39f0759a7a25fef34/src/images/Screenshot1.png)
-![Screen Shots2](https://github.com/frozzel/cgi-pro-painters/blob/16c71319c5d5fb890c1149a39f0759a7a25fef34/src/images/Screenshot2.png)
+![Screen Shots](https://github.com/frozzel/Cyrus-Group-VR/blob/a2f583266e68c45570053836880f21b999db57ef/src/images/screen-shots/Screenshot%202024-12-03%20at%205.00.12%E2%80%AFPM.png)
+![Screen Shots2](https://github.com/frozzel/Cyrus-Group-VR/blob/a2f583266e68c45570053836880f21b999db57ef/src/images/screen-shots/Screenshot%202024-12-03%20at%205.00.25%E2%80%AFPM.png)
+![Screen Shots3](https://github.com/frozzel/Cyrus-Group-VR/blob/a2f583266e68c45570053836880f21b999db57ef/src/images/screen-shots/Screenshot%202024-12-03%20at%205.00.38%E2%80%AFPM.png)
+![Screen Shots4](https://github.com/frozzel/Cyrus-Group-VR/blob/a2f583266e68c45570053836880f21b999db57ef/src/images/screen-shots/Screenshot%202024-12-03%20at%205.00.51%E2%80%AFPM.png)
+![Screen Shot5](https://github.com/frozzel/Cyrus-Group-VR/blob/a2f583266e68c45570053836880f21b999db57ef/src/images/screen-shots/Screenshot%202024-12-03%20at%205.01.12%E2%80%AFPM.png)
 
 
 
