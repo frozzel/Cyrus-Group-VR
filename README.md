@@ -15,10 +15,11 @@ Welcome to Cyrus Group, where creativity and innovation come together. Experienc
 ![Screen Shot5](https://github.com/frozzel/Cyrus-Group-VR/blob/a2f583266e68c45570053836880f21b999db57ef/src/images/screen-shots/Screenshot%202024-12-03%20at%205.01.12%E2%80%AFPM.png)
 
 
+```diff
+@@ About Us @@
+```
 
-<span style="color: green, text: bold">About Us</span>
-
-### Transform Your Online Presence
+#### Transform Your Online Presence
 
 Whether you're looking to integrate CRM systems, optimize your e-commerce platform, or boost your search engine rankings, we have the expertise and dedication to bring your vision to life.
 
@@ -38,7 +39,9 @@ Whether you're looking to integrate CRM systems, optimize your e-commerce platfo
 
 - Payment Processing Solutions
 
-## Features
+```diff
+@@ Features @@
+```
 
 ### Client-Side Features
 
@@ -56,7 +59,9 @@ We have integrated HubSpot forms and CTAs (Calls-to-Action) to enhance our lead 
 
 Our server-side includes a ChatGPT-powered auto content publisher that automatically generates and posts content to our Twitter, Instagram, and Facebook accounts. This ensures that our social media presence is consistently updated with engaging content.
 
-## Technologies Used
+```diff
+@@ Technologies Used @@
+```
 
 - HTML/CSS
 - JavaScript
@@ -66,19 +71,23 @@ Our server-side includes a ChatGPT-powered auto content publisher that automatic
 - HubSpot API
 - OpenAI GPT-4 API (for auto content publisher)
 
-## Contact Us
+```diff
+@@ Contact Us @@
+```
 
 Interested in learning more about our services or booking a session? Get in touch with us through our [contact page](https://cyrusgroupinnovations.com) or email us at [Email](mailto:admin@cyrusgroupinnovations.com).
 
-
-  
-  ## Contributing 
+```diff
+@@ Contributing @@
+```  
 
   Created by: [@frozzel](https://github.com/frozzel)
   
   Please contact me with questions at: [@frozzel](mailto:frozzel@me.com)
 
-  ## License
+```diff
+@@ License @@
+```
   
   [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
