@@ -22,15 +22,15 @@ const Heading = tw(SectionHeading)`text-left text-3xl sm:text-4xl lg:text-5xl te
 // const Heading = tw.h1`font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-900 leading-tight`;
 const Paragraph = tw.p`my-5 lg:my-8 text-base xl:text-lg`;
 
-const Actions = styled.div`
-  ${tw`relative max-w-md text-center mx-auto lg:mx-0`}
-  input {
-    ${tw`sm:pr-48 pl-8 py-4 sm:py-5 rounded-full border-2 w-full font-medium focus:outline-none transition duration-300  focus:border-primary-500 hover:border-gray-500`}
-  }
-  button {
-    ${tw`w-full sm:absolute right-0 top-0 bottom-0 bg-primary-300 text-gray-100 font-bold mr-2 my-4 sm:my-2 rounded-full py-4 flex items-center justify-center sm:w-40 sm:leading-none focus:outline-none hover:bg-pink-500 transition duration-300`}
-  }
-`;
+// const Actions = styled.div`
+//   ${tw`relative max-w-md text-center mx-auto lg:mx-0 `}
+//   // input {
+//   //   ${tw`sm:pr-48 pl-8 py-4 sm:py-5 rounded-full  w-full font-medium focus:outline-none transition duration-300  focus:border-primary-500 hover:border-gray-500`}
+//   // }
+//   button {
+//     ${tw`h-10 w-full font-medium w-full sm:absolute right-0 top-0 bottom-0 bg-primary-300 text-gray-100 font-bold mr-2 my-4 sm:my-2 rounded-full py-4 flex items-center justify-center sm:w-40 sm:leading-none focus:outline-none hover:bg-pink-500 transition duration-300`}
+//   }
+// `;
 
 const IllustrationContainer = tw.div`flex justify-center lg:justify-end items-center`;
 
@@ -40,7 +40,7 @@ const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
 `;
 
 const CustomersLogoStrip = styled.div`
-  ${tw`mt-12 lg:mt-20`}
+  ${tw`mt-12 lg:mt-2`}
   p {
     ${tw`uppercase text-sm lg:text-xs tracking-wider font-bold text-gray-500`}
   }
@@ -62,10 +62,10 @@ export default ({ roundedHeaderButton }) => {
             <Paragraph>
             Welcome to Cyrus Group, where creativity and innovation come together. Experience the power of cutting-edge web development solutions as we strive to exceed your expectations.
             </Paragraph>
-            <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
-              <button>Get Started</button>
-            </Actions>
+            {/* <Actions>
+              <input type="text" placeholder="" />
+              <button>Contact Us</button>
+            </Actions> */}
             <CustomersLogoStrip>
               <p>Supercharge Your Website with Seamless Integrations</p>
               <img src={CustomersLogoStripImage} alt="Our Customers" />
