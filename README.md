@@ -16,7 +16,7 @@ Welcome to Cyrus Group, where creativity and innovation come together. Experienc
 
 
 
-## <span style="color: pink">About Us</span>
+<span style="color: pink, text: bold">About Us</span>
 
 ### Transform Your Online Presence
 
