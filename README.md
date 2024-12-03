@@ -1,3 +1,89 @@
+<div>
+<a href=""><img src="https://github.com/frozzel/Cyrus-Group-VR/blob/afbdd9790cabc618f836b62feb62f793ad3db6fe/src/images/cyrusLogo.webp" align="center" height="" width="100%" ></a></div>
+
+---
+
+# Cyrus Group Innovations
+
+Welcome to Cyrus Group, where creativity and innovation come together. Experience the power of cutting-edge web development solutions as we strive to exceed your expectations.
+
+---
+
+## Screen Shots
+
+![Screen Shots](https://github.com/frozzel/cgi-pro-painters/blob/16c71319c5d5fb890c1149a39f0759a7a25fef34/src/images/Screenshot1.png)
+![Screen Shots2](https://github.com/frozzel/cgi-pro-painters/blob/16c71319c5d5fb890c1149a39f0759a7a25fef34/src/images/Screenshot2.png)
+
+
+---
+
+## About Us
+
+### Transform Your Online Presence
+
+Whether you're looking to integrate CRM systems, optimize your e-commerce platform, or boost your search engine rankings, we have the expertise and dedication to bring your vision to life.
+
+- Seamless CRM Integrations:
+
+- Effortless E-commerce Solutions
+
+- Innovative AI Integrations
+
+- SEO Optimization Strategies
+
+- Custom Web Development
+
+- Mobile App Development
+
+- Social Media Marketing Integrations
+
+- Payment Processing Solutions
+
+## Features
+
+### Client-Side Features
+
+#### Google Analytics Integration
+
+Our client-side integration with Google Analytics allows us to track and analyze website traffic, providing valuable insights into user behavior and helping us improve our services.
+
+#### HubSpot Form and CTA Integration
+
+We have integrated HubSpot forms and CTAs (Calls-to-Action) to enhance our lead generation and customer engagement efforts. This integration helps us capture leads effectively and manage customer relationships efficiently.
+
+### Server-Side Features
+
+#### ChatGPT Auto Content Publisher
+
+Our server-side includes a ChatGPT-powered auto content publisher that automatically generates and posts content to our Twitter, Instagram, and Facebook accounts. This ensures that our social media presence is consistently updated with engaging content.
+
+## Technologies Used
+
+- HTML/CSS
+- JavaScript
+- React 
+- Node.js 
+- Google Analytics
+- HubSpot API
+- OpenAI GPT-4 API (for auto content publisher)
+
+## Contact Us
+
+Interested in learning more about our services or booking a session? Get in touch with us through our [contact page](https://cyrusgroupinnovations.com) or email us at [Email](mailto:admin@cyrusgroupinnovations.com).
+
+
+  
+  ## Contributing 
+
+  Created by: [@frozzel](https://github.com/frozzel)
+  
+  Please contact me with questions at: [@frozzel](mailto:frozzel@me.com)
+
+  ## License
+  
+  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 ## To Use CRA Depreciated
 change package.json start script to:
