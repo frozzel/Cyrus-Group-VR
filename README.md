@@ -1,7 +1,6 @@
 <div>
-<a href=""><img src="https://github.com/frozzel/Cyrus-Group-VR/blob/afbdd9790cabc618f836b62feb62f793ad3db6fe/src/images/cyrusLogo.webp" align="center" height="" width="100%" ></a></div>
+<a href=""><img src="https://github.com/frozzel/Cyrus-Group-VR/blob/afbdd9790cabc618f836b62feb62f793ad3db6fe/src/images/cyrusLogo.webp" align="center" height="" width="60%" ></a></div>
 
----
 
 # Cyrus Group Innovations
 
@@ -9,13 +8,10 @@ Welcome to Cyrus Group, where creativity and innovation come together. Experienc
 
 ---
 
-## Screen Shots
-
 ![Screen Shots](https://github.com/frozzel/cgi-pro-painters/blob/16c71319c5d5fb890c1149a39f0759a7a25fef34/src/images/Screenshot1.png)
 ![Screen Shots2](https://github.com/frozzel/cgi-pro-painters/blob/16c71319c5d5fb890c1149a39f0759a7a25fef34/src/images/Screenshot2.png)
 
 
----
 
 ## About Us
 
