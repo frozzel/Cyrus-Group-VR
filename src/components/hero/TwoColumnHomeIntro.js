@@ -53,7 +53,7 @@ export default ({ roundedHeaderButton }) => {
   return (
     <>
       <Header roundedHeaderButton={roundedHeaderButton} />
-      <Container>
+      <Container id="home">
         <TwoColumn>
           <LeftColumn>
             <Heading>
