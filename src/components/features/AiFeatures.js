@@ -13,7 +13,7 @@ import SupportIconImage from "images/brain.svg";
 import ShieldIconImage from "images/ChatGPT_logo.svg";
 
 
-const Container = tw.div`w-screen `;
+const Container = tw.div`relative`;
 
 
 // const ThreeColumnContainer = styled.div`
