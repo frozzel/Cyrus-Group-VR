@@ -43,6 +43,8 @@ export default () => {
       />
 
       <Footer />
+     
     </AnimationRevealPage>
+    
   );
 }
