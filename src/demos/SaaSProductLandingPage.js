@@ -9,6 +9,7 @@ import Footer from "components/footers/MiniCenteredFooter";
 import heroScreenshotImageSrc from "images/vr_new.webp";
 import TwoColStats from "components/features/TwoColStats";
 import AiFeatures from "components/features/AiFeatures";
+import SimpleContactUs from "components/forms/SimpleContactUs";
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-300`;
@@ -35,13 +36,14 @@ export default () => {
           <HighlightedText> </HighlightedText>
         </>
       }/>
+      
       <MainFeature
         subheading={<Subheading>Revolutionize Your Business with</Subheading>}
         imageSrc={heroScreenshotImageSrc}
         imageBorder={true}
         imageDecoratorBlob={true}
       />
-
+      <SimpleContactUs />
       <Footer />
      
     </AnimationRevealPage>
