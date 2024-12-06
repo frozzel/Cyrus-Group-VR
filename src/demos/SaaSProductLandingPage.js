@@ -9,7 +9,8 @@ import Footer from "components/footers/MiniCenteredFooter";
 import heroScreenshotImageSrc from "images/vr_new.webp";
 import TwoColStats from "components/features/TwoColStats";
 import AiFeatures from "components/features/AiFeatures";
-import SimpleContactUs from "components/forms/SimpleContactUs";
+// import SimpleContactUs from "components/forms/SimpleContactUs";
+import TwoColContactUsWithIllustrationFullForm from "components/forms/TwoColContactUsWithIllustrationFullForm";
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-300`;
@@ -43,7 +44,8 @@ export default () => {
         imageBorder={true}
         imageDecoratorBlob={true}
       />
-      <SimpleContactUs />
+      <TwoColContactUsWithIllustrationFullForm />
+      {/* <SimpleContactUs /> */}
       <Footer />
      
     </AnimationRevealPage>
