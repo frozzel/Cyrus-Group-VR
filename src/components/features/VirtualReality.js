@@ -68,7 +68,7 @@ export default ({
   ),
   description = "Unlock the potential of virtual reality to transform the way your company operates.  ",
   primaryButtonText = "Demo Solutions",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "https://avatar-ai-app-sbz2z.ondigitalocean.app/",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -95,7 +95,7 @@ export default ({
             <Description>{description}</Description>
             <Description>From immersive training programs and collaborative virtual spaces to innovative product showcases and interactive marketing solutions, our platform helps businesses stay ahead of the curve.</Description>
             <Description>Experience the future of engagement and efficiency with tailored VR solutions designed to fit your needs.</Description>
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl} target="_blank">
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>
