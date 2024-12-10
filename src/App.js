@@ -133,6 +133,7 @@ export default function App() {
           <Route path="/" element={<SaaSProductLandingPage />} />
           <Route path="*" element={<SaaSProductLandingPage />} />
          <Route path="/meetings/dennis-hickox" element={<AboutUs />} />
+         <Route path="/thank-you-quote" element={<ThankYouPage />} />
 
         </Routes>
       </Router>
