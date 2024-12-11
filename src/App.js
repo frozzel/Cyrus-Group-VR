@@ -107,7 +107,7 @@ import ComponentRenderer from "ComponentRenderer.js";
 import ThankYouPage from "ThankYouPage.js";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutUs from "pages/AboutUs";
+// import AboutUs from "pages/AboutUs";
 // import MainLandingPage from "MainLandingPage";
 
 export default function App() {
@@ -132,7 +132,7 @@ export default function App() {
           <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/" element={<SaaSProductLandingPage />} />
           <Route path="*" element={<SaaSProductLandingPage />} />
-         <Route path="/meetings/dennis-hickox" element={<AboutUs />} />
+         {/* <Route path="/meetings/dennis-hickox" element={<AboutUs />} /> */}
          <Route path="/thank-you-quote" element={<ThankYouPage />} />
 
         </Routes>
