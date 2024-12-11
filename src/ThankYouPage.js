@@ -62,7 +62,7 @@ export default () => {
           <HeroRow>
             <Heading>Thank You!</Heading>
             <Description tw="mt-12">Thank you for reaching out! One of our dedicated sales representatives will be in touch soon to get your development project underway. To make this process as swift as possible, we kindly ask you to arrange a meeting time.</Description>
-            <PrimaryButton buttonRounded="true" as="a" href="/meetings/dennis-hickox">Book Meeting</PrimaryButton>
+            <PrimaryButton buttonRounded="true" as="a" href="https://meetings.hubspot.com/dennis-hickox" target="_blank">Book Meeting</PrimaryButton>
             
 
           </HeroRow>
