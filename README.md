@@ -94,6 +94,30 @@ Interested in learning more about our services or booking a session? Get in touc
 
 
 ## To Use CRA Depreciated
+
+### Use yarn or npm
+
+#### Yarn
+
+Delete Package Lock Json then do 👇🏼👇🏼👇🏼
+
+```bash
+yarn install
+```
+
+Then Run 👇🏼👇🏼👇🏼
+
+```bash
+npm run start
+```
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+
+
+#### NPM 
+
 change package.json start script to:
 
 ```bash
@@ -111,13 +135,13 @@ npm i
 npm audit fix --force
 ```
 
-🔥🔥🔥🔥:
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥:
 
 ```bash
 npm run start
 ```
 
-🏆🏆🏆🏆🏆🏆🏆🏆
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
 
 ---
 
