@@ -97,7 +97,9 @@ Interested in learning more about our services or booking a session? Get in touc
 
 ### Use yarn or npm
 
-#### Yarn
+```diff
+@@ Yarn @@
+``` 
 
 Delete Package Lock Json then do 👇🏼👇🏼👇🏼
 
@@ -116,7 +118,9 @@ npm run start
 🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
 
 
-#### NPM 
+```diff
+@@ NPM @@
+```  
 
 change package.json start script to:
 
