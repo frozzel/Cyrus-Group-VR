@@ -68,7 +68,7 @@ export default ({
   ),
   description = "Unlock the potential of virtual reality to transform the way your company operates.  ",
   primaryButtonText = "Demo Solutions",
-  primaryButtonUrl = "https://avatar-ai-app-sbz2z.ondigitalocean.app/",
+  primaryButtonUrl = "https://meta-vr-demo-kn8pf.ondigitalocean.app/",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
